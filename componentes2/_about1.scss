@@ -1,0 +1,10 @@
+
+
+.submenudo{
+    @include piedepagina(250px, 250px);
+
+
+    background-color: map-get($colores primario, h1 );
+
+    
+}

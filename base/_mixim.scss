@@ -1,0 +1,44 @@
+@mixin margin-top-botom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////@mixin piedepagina {
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//    height: 250px;
+//    width: 250px;
+//}
+
+
+//inluir lo de ariiba en la pagina de sass del menu aun div calquiera
+
+@mixin colores ($colores, $ancho, $borde) {
+    background-color: $colores;
+    width: $ancho;
+    padding: $borde;
+}
+    
+
+//aca pone otro cartelito con memidas estandar
+
+@mixin margin-top-nottom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}

@@ -1,0 +1,8 @@
+$Oswald:(
+    typo: 'Oswald', sans-serif,
+    peso-typo: 500,
+);
+
+.modificando-subtitulo{
+    font-family: map-get($Oswald, typo);
+}
